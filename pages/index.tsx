@@ -51,33 +51,33 @@ export default function Home() {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon" />
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ms-auto text-lg gap-lg-0 gap-2">
                 <li className="nav-item my-auto">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <a className="nav-link active" aria-current="page" href="/#">
                     Home
                   </a>
                 </li>
                 <li className="nav-item my-auto">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="/#">
                     Games
                   </a>
                 </li>
                 <li className="nav-item my-auto">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="/#">
                     Rewards
                   </a>
                 </li>
 
                 <li className="nav-item my-auto">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="/#">
                     Discover
                   </a>
                 </li>
                 <li className="nav-item my-auto me-lg-20">
-                  <a className="nav-link" href="#">
+                  <a className="nav-link" href="/#">
                     Global Rank
                   </a>
                 </li>
@@ -125,7 +125,7 @@ export default function Home() {
                 </a>
                 <a
                   className="btn-learn text-lg color-palette-1 my-auto text-center"
-                  href="#"
+                  href="/#"
                   role="button"
                 >
                   Learn More
@@ -248,7 +248,8 @@ export default function Home() {
         <div className="container-fluid">
           <h2 className="text-4xl fw-bold color-palette-1 text-center mb-30">
             It’s Really That
-            <br /> Easy to Win the Game
+            <br />
+            Easy to Win the Game
           </h2>
           <div className="row gap-lg-0 gap-4" data-aos="fade-up">
             <div className="col-lg-4">
@@ -296,16 +297,16 @@ export default function Home() {
                       <path
                         d="M37 55H-4"
                         stroke="white"
-                        stroke-width="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="4"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M23 64L-4 64"
                         stroke="#B7B0F4"
-                        stroke-width="4"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="4"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <rect
                         x="23"
@@ -329,7 +330,7 @@ export default function Home() {
                       cy="29.5"
                       r="5.5"
                       stroke="white"
-                      stroke-width="4"
+                      strokeWidth="4"
                     />
                   </g>
                 </svg>
@@ -377,16 +378,16 @@ export default function Home() {
                     <path
                       d="M32 36H5"
                       stroke="white"
-                      stroke-width="4"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="4"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M27 45L9 45"
                       stroke="#B7B0F4"
-                      stroke-width="4"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="4"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <rect
                       x="56"
@@ -399,16 +400,16 @@ export default function Home() {
                     <path
                       d="M97 50H70"
                       stroke="white"
-                      stroke-width="4"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="4"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M92 59L74 59"
                       stroke="#6B63AC"
-                      stroke-width="4"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="4"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </g>
                 </svg>
@@ -456,23 +457,23 @@ export default function Home() {
                     <path
                       d="M50 46L50 68"
                       stroke="white"
-                      stroke-width="4"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="4"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M40 54L40 68"
                       stroke="#B7B0F4"
-                      stroke-width="4"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="4"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <path
                       d="M30 60L30 68"
                       stroke="#B7B0F4"
-                      stroke-width="4"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="4"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                     <circle cx="40" cy="26" r="14" fill="#2B2467" />
                     <path
@@ -499,14 +500,15 @@ export default function Home() {
         <div className="container-fluid">
           <h2 className="text-4xl fw-bold color-palette-1 mb-30">
             Our Featured
-            <br /> Games This Year
+            <br />
+            Games This Year
           </h2>
           <div
             className="d-flex flex-row flex-lg-wrap overflow-setting justify-content-lg-between gap-lg-3 gap-4"
             data-aos="fade-up"
           >
             <div className="featured-game-card position-relative">
-              <a href="./src/detail.html">
+              <a href="/detail">
                 <div className="blur-sharp">
                   <img
                     src="/img/Thumbnail-1.png"
@@ -542,7 +544,7 @@ export default function Home() {
               </a>
             </div>
             <div className="featured-game-card position-relative">
-              <a href="./src/detail.html">
+              <a href="/detail">
                 <div className="blur-sharp">
                   <img
                     src="/img/Thumbnail-2.png"
@@ -578,7 +580,7 @@ export default function Home() {
               </a>
             </div>
             <div className="featured-game-card position-relative">
-              <a href="./src/detail.html">
+              <a href="/detail">
                 <div className="blur-sharp">
                   <img
                     src="/img/Thumbnail-3.png"
@@ -614,7 +616,7 @@ export default function Home() {
               </a>
             </div>
             <div className="featured-game-card position-relative">
-              <a href="./src/detail.html">
+              <a href="/detail">
                 <div className="blur-sharp">
                   <img
                     src="/img/Thumbnail-4.png"
@@ -650,7 +652,7 @@ export default function Home() {
               </a>
             </div>
             <div className="featured-game-card position-relative">
-              <a href="./src/detail.html">
+              <a href="/detail">
                 <div className="blur-sharp">
                   <img
                     src="/img/Thumbnail-5.png"
@@ -700,8 +702,8 @@ export default function Home() {
                 Players Top Up
               </p>
             </div>
-            <div className="vertical-line me-lg-35 ms-lg-35 d-lg-block d-none"></div>
-            <div className="horizontal-line mt-6 mb-6 me-lg-35 ms-lg-35 d-lg-none d-block"></div>
+            <div className="vertical-line me-lg-35 ms-lg-35 d-lg-block d-none" />
+            <div className="horizontal-line mt-6 mb-6 me-lg-35 ms-lg-35 d-lg-none d-block" />
             <div className="me-lg-35 ms-lg-35">
               <p className="text-4xl text-lg-start text-center color-palette-1 fw-bold m-0">
                 12.500
@@ -710,8 +712,8 @@ export default function Home() {
                 Games Available
               </p>
             </div>
-            <div className="horizontal-line mt-6 mb-6 me-lg-35 ms-lg-35 d-lg-none d-block"></div>
-            <div className="vertical-line me-lg-35 ms-lg-35 d-lg-block d-none"></div>
+            <div className="horizontal-line mt-6 mb-6 me-lg-35 ms-lg-35 d-lg-none d-block" />
+            <div className="vertical-line me-lg-35 ms-lg-35 d-lg-block d-none" />
             <div className="me-lg-35 ms-lg-35">
               <p className="text-4xl text-lg-start text-center color-palette-1 fw-bold m-0">
                 99,9%
@@ -720,8 +722,8 @@ export default function Home() {
                 Happy Players
               </p>
             </div>
-            <div className="horizontal-line mt-6 mb-6 me-lg-35 ms-lg-35 d-lg-none d-block"></div>
-            <div className="vertical-line me-lg-35 ms-lg-35 d-lg-block d-none"></div>
+            <div className="horizontal-line mt-6 mb-6 me-lg-35 ms-lg-35 d-lg-none d-block" />
+            <div className="vertical-line me-lg-35 ms-lg-35 d-lg-block d-none" />
             <div className="me-lg-35 ms-lg-35">
               <p className="text-4xl text-lg-start text-center color-palette-1 fw-bold m-0">
                 4.7
@@ -753,18 +755,20 @@ export default function Home() {
               <div className="">
                 <h2 className="text-4xl fw-bold color-palette-1 mb-30">
                   Win the battle.
-                  <br /> Be the Champion.
+                  <br />
+                  Be the Champion.
                 </h2>
                 <p className="text-lg color-palette-1 mb-30">
                   Kami menyediakan jutaan cara untuk
                   <br className="d-sm-block d-none" />
                   membantu players menjadi
-                  <br className="d-sm-block d-none" /> pemenang sejati
+                  <br className="d-sm-block d-none" />
+                  pemenang sejati
                 </p>
                 <div className="d-md-block d-flex flex-column w-100">
                   <a
                     className="btn btn-read text-lg rounded-pill"
-                    href="#"
+                    href="/#"
                     role="button"
                   >
                     Read Story
@@ -781,7 +785,7 @@ export default function Home() {
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-4 text-lg-start text-center">
-                <a href="" className="mb-30">
+                <a href="/#" className="mb-30">
                   <svg
                     width="60"
                     height="60"
@@ -814,7 +818,8 @@ export default function Home() {
                   </svg>
                 </a>
                 <p className="mt-30 text-lg color-palette-1 mb-30">
-                  StoreGG membantu gamers <br /> untuk menjadi pemenang sejati
+                  StoreGG membantu gamers <br />
+                  untuk menjadi pemenang sejati
                 </p>
                 <p className="mt-30 text-lg color-palette-1 mb-30">
                   Copyright 2021. All Rights Reserved.
@@ -829,7 +834,7 @@ export default function Home() {
                     <ul className="list-unstyled">
                       <li className="mb-6">
                         <a
-                          href=""
+                          href="/#"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
                           About Us
@@ -837,7 +842,7 @@ export default function Home() {
                       </li>
                       <li className="mb-6">
                         <a
-                          href=""
+                          href="/#"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
                           Press Release
@@ -845,7 +850,7 @@ export default function Home() {
                       </li>
                       <li className="mb-6">
                         <a
-                          href=""
+                          href="/#"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
                           Terms of Use
@@ -853,7 +858,7 @@ export default function Home() {
                       </li>
                       <li className="mb-6">
                         <a
-                          href=""
+                          href="/#"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
                           Privacy & Policy
@@ -868,7 +873,7 @@ export default function Home() {
                     <ul className="list-unstyled">
                       <li className="mb-6">
                         <a
-                          href=""
+                          href="/#"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
                           Refund Policy
@@ -876,7 +881,7 @@ export default function Home() {
                       </li>
                       <li className="mb-6">
                         <a
-                          href=""
+                          href="/#"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
                           Unlock Rewards
@@ -884,7 +889,7 @@ export default function Home() {
                       </li>
                       <li className="mb-6">
                         <a
-                          href=""
+                          href="/#"
                           className="text-lg color-palette-1 text-decoration-none"
                         >
                           Live Chatting
